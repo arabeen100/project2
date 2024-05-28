@@ -1,0 +1,167 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.App{
+ min-height: 100vh;
+ width: 100%;
+ max-width: 600px;
+  margin: 0 auto;
+  border: solid 1px #333;
+display: flex;
+flex-direction: column;
+
+
+}
+html{
+  font-size: 16px;
+}
+.header{
+  background-color: rgb(66, 190, 248);
+  margin-top: 0;
+  padding: .25rem;
+}
+.footer{
+  background-color: rgb(66, 190, 248);
+  margin-bottom: 0;
+  text-align: center;
+  
+}
+.home,.about,.post,.postb,.missing{
+  flex-grow: 1;
+  
+}
+.slabel{
+  position: absolute;
+  left: -999999px;
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  margin-right: 1rem;
+
+  
+}
+.link{
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: black;
+  margin-top:0;
+}
+#search{
+  font-size: 16px;
+  padding: .25rem;
+  margin-left: .5rem;
+  width:100%;
+  min-width: 100px;
+  max-width: 250px;
+  outline: none;
+ 
+
+ 
+}
+.form{
+  width: 100%;
+}
+.link:hover,.link:focus{
+  background-color: rgb(222, 225, 228);
+  color: black;
+ 
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.posta{
+  margin-left:.5rem ;
+  border-bottom: 1px solid #333;
+
+}
+.postbody{
+  font-size: 19px;
+}
+
+h2{
+  margin-bottom: 0;
+}
+.postdate{
+  font-size: 13px;
+  margin-top: 0;
+}
+.linkhome{
+  text-decoration: underline;
+}
+.postb{
+  margin-left: .5rem;
+}
+.delete{
+  padding: .5rem;
+  color: white;
+  background-color: red;
+  outline: none;
+}
+.post{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.postform{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#title{
+  width: 95%;
+  margin: .5rem auto .5rem;
+ height: 23px;
+  outline: none;
+}
+#body{
+  width: 95%;
+  margin: .5rem auto .5rem;
+  outline: none;
+  height: 250px;
+
+}
+.submit{
+  width: 95%;
+  margin: .5rem auto .5rem;
+  height: 23px;
+  outline: none;
+}
+.la{
+  margin-left:.5rem ;
+}
+.newpost{
+  margin-bottom: 1rem;
+  margin-left: .5rem;
+}
+.missing,.about{
+  margin-left: .5rem;
+}
+.edit{
+  background-color: black;
+  color: white;
+  padding: .5rem;
+  margin-right: .5rem;
+
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header svg{
+  font-size: 3rem;
+  margin-right: 1rem;
+}
